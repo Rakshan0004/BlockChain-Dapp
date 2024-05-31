@@ -1,0 +1,91 @@
+
+.navbar{
+    width: 100%;
+    height: 5.5rem;
+    background-color: #231E39;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.35);
+    margin-bottom: 2rem;
+}
+
+.title{
+    cursor: pointer;
+}
+
+
+.navbar_box{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    
+}
+
+.connect{
+    background-color: #9a02ac;
+    padding: .5rem 2rem;
+    border-radius: .2rem;
+    cursor: pointer;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.35);
+    position: relative;
+}
+
+.navigation{
+    position: absolute;
+    background-color: #9a02ac;
+    padding: 1rem;
+    width: 15rem;
+    left: 0;
+    top: 3rem;
+    border-radius: .2rem;
+    z-index: 1111111;
+}
+.connect button{
+    background-color: transparent;
+    border: 0;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+.connect_flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.connect span{
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+
+.message__Box{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 5rem 3rem;
+    background-color: #9a02ac;
+    position: absolute;
+    z-index: 11111;
+    border-radius: 1rem;
+    font-size: 2rem;
+
+}
+
+@media screen and (max-width: 35em) {
+
+    .navbar{
+        width: 100%;
+        height: 7rem;
+    }
+    .navbar_box{
+        padding-top: 1rem;
+    }
+    .message__Box{
+        width: 80%;
+        font-size: 1.3rem;
+        padding: 2rem 1rem;
+        top: 55%;
+    }
+    
+}

@@ -1,0 +1,190 @@
+.createVoter{
+    width: 95%;
+    margin: 0 auto;
+    margin-block: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    gap: 2rem;
+}
+.voter{
+    
+    background-color: #231E39;
+    border-radius: 25px;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.35);
+    color: #B3B8CD;
+    padding: 2rem;
+}
+
+
+.voter__container__box{
+    text-align: center;
+    border: 1px dotted #9a02ac;
+    border-radius: 5px;
+}
+
+.voter__container__box p{
+    line-height: .5;
+}
+
+/* /////////////INPUT   */
+.input__container{
+    padding-top: 2rem;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* ////////button */
+
+.Button{
+    text-align: end;
+}
+
+/* //////////////////////////////RESISTER */
+
+.register{
+    background-color: #231E39;
+    padding: 1rem;
+    border-radius: .5rem;
+    display: grid;
+    gap: 1rem;
+}
+
+.Candidate{
+    background-color: #9a02ac;
+    padding: .5rem;
+    border-radius: .2rem;
+    cursor: pointer;
+}
+
+.Candidate button{
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+
+/* ///////////////////////////MODaL */
+.voterInfo{
+    position: absolute;
+    top: 12rem;
+    left: 3rem;
+    width: 15rem;
+    height: 15rem;
+    padding: 1rem;
+    background-color: #231E39;
+    border-radius: 25px;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.35);
+    color: #B3B8CD;
+    text-align: start;
+}
+
+.voterInfo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+
+.voterInfo_paragraph{
+    background-color: #231E39;
+    border-radius: 25px;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.35);
+    color: #B3B8CD;
+    height: 9rem;
+    padding: 1rem;
+}
+
+.voterInfo_paragraph p{
+    line-height: 1rem;
+}
+.voterInfo_paragraph p span{
+    font-size: 12px;
+}
+
+/* //////////////////// */
+
+.sideInfo{
+    background-color: #231E39;
+    padding: .5rem 1rem;
+    border-radius: 1rem;
+    color: #B3B8CD;
+}
+.sideInfo_box h4{
+    background-color: #9a02ac;
+    padding: .5rem;
+    border-radius: .2rem;
+}
+.sideInfo_box .sideInfo_para{
+    background-color: #9a02ac;
+    padding: .5rem;
+    border-radius: .2rem;
+}
+.car{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.card_box{
+    line-height: 1;
+    border: 1px solid #9a02ac;
+    padding: .2rem;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.35);
+    border-radius: .3rem;
+}
+.image img{
+    width: 100%;
+
+}
+
+/* ////////////////////////////USER LIST */
+
+.createdVorter__info{
+    background-color: #231E39;
+    border-radius: 25px;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.35);
+    color: #B3B8CD;
+    padding: 2rem;
+    
+}
+
+.voter_upload_two{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+
+
+/* /////////////////////MEDIA QUERY */
+@media screen and (max-width: 45em){
+    .createVoter{
+        width: 90%;
+        grid-template-columns: 1fr;
+    }
+    .voter{
+        width: 100%;
+        padding: 1rem;
+    }
+    .input__container{
+        width: 100%;
+    }
+    .voterInfo{
+        width: 12rem;
+        height: 12rem;
+        top: 2rem;
+        left: 0rem;
+        cursor: pointer;
+    }
+    .voterInfo_paragraph{
+        font-size: 12px;
+        height: 7.5rem;
+    }
+}

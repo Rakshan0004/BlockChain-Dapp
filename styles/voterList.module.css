@@ -1,0 +1,14 @@
+
+
+.voterList{
+    width: 70%;
+    margin: 0 auto;
+    margin-block: 2rem;
+}
+
+
+@media screen  and (max-width: 35em){
+    .voterList{
+        width: 90%;
+    }
+}
